@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <link rel="stylesheet"href="style.css">
+        <title>Loja Virtual</title>
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="cabecalho">
+            <div>
+
+                <p><strong>Esther Janina</strong></p>
+                <small>Ultimo login em 07/10/2023 às 20:20</small>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-home"></i>
+
+                            <a href="#">
+                                <i class="fa fa-home"></i>
+                                <strong>Ínicio</strong>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-home"></i>
+                                <strong>Clientes</strong> </a>
+
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-home"></i>
+                                <strong>Pedidos</strong>
+                
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-home"></i>
+                                <strong>Fale Conosco</strong>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+    
+            <main>
+                <section> 
+                    <header class="content">
+                            <h1>Nova Coleção</h1>
+                            <h2>Ganhe <b>10%</b> off na 1º compra</h2>
+                           
+                    </header>
+        
+                    <ol>
+                        <li>
+                            <figure>
+                                <img src="img/imagem1.jpg" alt="mulher negra sorrindo"/>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="img/imagem2.jpg" alt="mulher negra sorrindo look 2"/>
+                            </figure>
+                        </li>
+        
+                        <li>
+                            <figure>
+                                <img src="./img/imagem3.jpg" alt="mulher negra sorrindo look 3"/>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="./img/imagem4.jpg" alt="mulher negra sorrindo look 4"/>
+                            </figure>
+                        </li>
+                    </ol>
+        
+                    <a href="https://www.cea.com.br" target="_blank">Clique aqui para conferir</a>
+                </section>
+        
+                <section id="clientes">
+                    <h3>Nossos Clientes</h3>
+                    <article>
+                        <h4>Maria Pereira</h4>
+                        <h5><i>Avaliado em: 06/10/2023</i></h5>
+                        <p>
+                            A qualidade dos tecidos e o caimento no corpo,<br/>
+                            ficou perfeito. <br/>
+                            Recomendo cada roupa.<br/> 
+                            Recomendo no site<br/> </p>
+                        </article>
+                        <article>
+                            <h4>Naomi Marques</h4>
+                            <h5><i>Avaliado em: 04/08/2023</i></h5>
+                            <p>
+                                A qualidade dos tecidos e o caimento no corpo,<br/>
+                                ficou perfeito. <br/>
+                                Recomendo cada roupa.<br/>
+                                Recomendo o site.<br/>
+                            </p>
+                        </article>
+                        <article>
+                            <h4>Débora Silva</h4>
+                            <h5><i>Avaliado em: 25/07/2023</i></h5>
+                            <p>
+                                A qualidade dos tecidos e o caimento no corpo,<br/>
+                                ficou perfeito. <br/>
+                                Recomendo cada roupa.<br/>
+                                Recomendo o site.<br/>
+                            </p>
+                        </article>
+                    </section>
+                    <section id="pedidos">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Produtos</th>
+                                    <th>Quantidade</th>
+                                    <th>Valor (R$)</th>
+                                    <th>Data da compra</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Blusa</td>
+                                    <td>04</td>
+                                    <td>20,00</td>
+                                    <td>06/10/2023</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Vestido</td>
+                                    <td>03</td>
+                                    <td>70,00</td>
+                                    <td>05/10/2023</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Sapato</td>
+                                    <td>02</td>
+                                    <td>90,00</td>
+                                    <td>29/09/2023</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </section>
+                </main>
+            
+                <main>
+                    <section id="fale-conosco">
+                        <p><b>Fale Conosco</b></p>
+                        <form>
+                            <label for="nome">Nome:</label>
+                            <input type="text" id="nome" name="nome" required>
+                            <br/>
+                            <label for="email">E-mail:</label>
+                            <input type="email" id="email" name="email" required>
+                            <br/>
+                            <label for="mensagem">Mensagem:</label>
+                            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                            <br/>
+                            <button type="submit">Enviar</button>
+                        </form>
+                    </section>
+                </main>
+            
+                <footer>
+                    <div>
+                        <p>&copy; Copyright | 2023 | Todos os direitos reservados</p>
+                    </div>
+                </header>
+            
+        </body>
+        </html>        

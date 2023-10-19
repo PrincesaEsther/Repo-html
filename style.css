@@ -1,0 +1,40 @@
+*{
+margin: 0;
+padding:  0;
+font-family: 'inter', sans-serif;
+}
+.cabecalho {
+    background-color: #D2691E;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+li {display:inline ;
+    background-color: #FFDEAD;
+    padding: 10px;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+a{
+    text-decoration:  none;
+}
+.info-usuario {
+    color:#F4A460 ;
+    margin-left: 30px;
+}
+.nome{
+    text-transform: uppercase;
+}
+.content{
+    font: inter;
+    font-weight: 400;
+    size: 36px;
+    line-height: 43.57px;
+    align-items: center;
+}
+#sessão inicial{
+    width: 1440px
+height: 532px
+top: 100px
+}
